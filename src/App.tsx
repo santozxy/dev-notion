@@ -9,12 +9,17 @@ export function App() {
             <button className="w-3 h-3 rounded-full bg-zinc-300 group-hover:bg-green-400"></button>
           </div>
         </aside>
-          <main className="p-4">
-            <div className="max-w[700px] mx-auto pt-16">
-              <h1>Notion</h1>
-              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati aut mollitia consequatur earum minima quam, cumque amet necessitatibus facere. Doloribus iusto sequi, quam voluptatem officiis nesciunt. Nisi cum quis consequuntur?</p>
-            </div>
-          </main>
+        <main className="p-4">
+          <div className="max-w[700px] mx-auto pt-16">
+            <h1>Notion</h1>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Obcaecati aut mollitia consequatur earum minima quam, cumque amet
+              necessitatibus facere. Doloribus iusto sequi, quam voluptatem
+              officiis nesciunt. Nisi cum quis consequuntur?
+            </p>
+          </div>
+        </main>
       </div>
     </div>
   );
