@@ -1,3 +1,5 @@
+import Editor from "./components/Editor";
+
 export function App() {
   return (
     <div className="min-h-screen p-8 text-zinc-900 bg-gradient-to-r from-indigo-300 to-purple-400">
@@ -10,15 +12,7 @@ export function App() {
           </div>
         </aside>
         <main className="p-4">
-          <div className="max-w[700px] mx-auto pt-16">
-            <h1>Notion</h1>
-            <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              Obcaecati aut mollitia consequatur earum minima quam, cumque amet
-              necessitatibus facere. Doloribus iusto sequi, quam voluptatem
-              officiis nesciunt. Nisi cum quis consequuntur?
-            </p>
-          </div>
+          <Editor />
         </main>
       </div>
     </div>
