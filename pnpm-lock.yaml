@@ -14,6 +14,9 @@ dependencies:
   '@tiptap/extension-code-block-lowlight':
     specifier: ^2.3.1
     version: 2.3.1(@tiptap/core@2.3.1)(@tiptap/extension-code-block@2.3.1)(@tiptap/pm@2.3.1)
+  '@tiptap/extension-floating-menu':
+    specifier: ^2.3.1
+    version: 2.3.1(@tiptap/core@2.3.1)(@tiptap/pm@2.3.1)
   '@tiptap/pm':
     specifier: ^2.3.1
     version: 2.3.1
